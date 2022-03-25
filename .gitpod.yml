@@ -1,3 +1,4 @@
+
 tasks:
   - init: npm install
     command: |
@@ -8,3 +9,10 @@ tasks:
 ports:
   - port: 3000
     onOpen: open-browser
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode
+    - svelte.svelte-vscode
+    - dracula-theme.theme-dracula
+    - PKief.material-icon-theme
