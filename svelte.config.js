@@ -18,6 +18,9 @@ const config = {
 						: 'localhost'
 				}
 			}
+		},
+		methodOverride: {
+			allowed: ['PUT', 'PATCH', 'DELETE']
 		}
 	}
 };
