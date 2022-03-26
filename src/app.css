@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-
 :root {
-	font-family: 'Poppins', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	--primary-color: #b9c6d2;
 	--secondary-color: #d0dde9;
 	--tertiary-color: #edf0f8;
@@ -15,8 +13,8 @@ body {
 		var(--secondary-color),
 		var(--tertiary-color)
 	);
-	min-height: 100vh;
 	margin: 0;
+	min-height: 100vh;
 }
 
 h1 {
